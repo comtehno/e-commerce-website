@@ -1,0 +1,344 @@
+
+
+/* <!-- ####### HEADER ############################################## --> */
+
+.header__container{
+   
+    list-style: none;
+    font-family: "Roboto";
+    
+}
+.header__content{
+    display: flex;
+    max-width: 1208px;
+    margin: 0 auto;
+    height: 72px;
+    background: #FFFFFF;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+/* <!-- ########## LOGO ############################################## --> */
+
+.logo{
+    display: flex;
+    align-items: center;
+
+}
+
+
+
+.logo__text{
+    font-size: 3mm;
+    font-weight: 900;
+    margin-left: 14px;
+    color:  #414141;
+
+}
+/* <!-- ######### BOX__CATEGORI ############################################## --> */
+.box__categori{
+    display: flex;
+    background: #70C05B;
+    width: 140px;
+    height: 40px;
+    border-radius: 4px;
+    align-items: center;
+
+
+}
+
+.box__categori--text{
+color: #FFFFFF;
+    padding-left: 30px;
+}
+.box__categori--icon{
+    padding-left: 5px;
+}
+/* <!-- ######### BOX__SEARCH--PRODUCKT ############################################## --> */
+.box__search--produckt{
+    padding-left: 16px;
+}
+.box__search__button{
+    width: 375px;
+    height: 40px;
+    border-radius: 4px;
+    padding-right: 16px;
+    border-color: #70C05B;
+}
+/* <!-- ############ ICON_ACTON ############################################## --> */
+
+.icon__action{
+    display: flex;
+    width: 274px;
+    justify-content: space-between;
+    align-items: center;
+}
+.icon__heart{
+    width: 40px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.icon__text{
+    font-size: 3mm;
+
+}
+.icon__heart--img{
+    justify-content: center;
+    align-items: center;
+}
+/* <!-- ####### PROFILE ############################################## --> */
+
+.box__profile{
+    display: flex;
+    align-items: center;
+    width: 100px;
+    justify-content: space-between;
+}
+
+.box__profile__name{
+    font-size: small;
+}
+/* <!-- ########################################### HEADER__SHADOW ############################################## --> */
+.header__shadow{
+    width: 100%;
+    height: 5px;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.5);
+
+}
+
+
+/* <!-- ####### SLIDERS ############################################## --> */
+.sliders__container{
+    background: url(assets/images/sliders__fon.svg);
+    background-size: cover;
+    position: relative;
+}
+.sliders__box{
+    display: flex;
+    position: absolute;
+    min-width: 1074px;
+    margin: 0 auto;
+    top: 55%;
+    left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sliders__text{
+    font-family: "Roboto";
+    font-size: 14mm;
+    color: #414141;
+    font-weight: 900;
+    
+}
+
+.sliders__box__img{
+    
+    width: 27%;
+}
+/* <!-- ####### HERO ############################################## --> */
+.hero{
+    background: #1FA8F7;
+    width: 100%;
+    height: 100%;
+
+
+}
+
+.hero__container{
+    flex-wrap: wrap;
+}
+
+.hero__boxs{
+    display: flex;
+    justify-content: space-between;
+    width: 1208px;
+    margin: 0 auto;
+}
+
+
+.hero__main--tem{
+    display: flex;
+    height: 126px;
+    align-items: center;
+    margin-left: 25px;
+    font-family:"Roboto";
+    padding-top: 37px;
+    
+}
+
+.hero__main--text{
+    display: flex;
+    align-items: center;
+    font-size: 1cm;
+    color: #414141;
+}
+/* <!-- ######## HERO__CART__BOX ############################################## --> */
+.hero__box{
+    background: #ffffff;
+    width: 272px;
+    height: 199px;
+    border-radius: 15px;
+}
+
+.hero__cart--box{
+    position: relative; 
+    list-style: none;
+    font-family:"Roboto";
+
+    
+}
+/* <!-- ######## HERO__CART__IMG ############################################## --> */
+
+.hero__cart__img{
+    border-radius: 15px;
+    margin-bottom: 5px;
+    width: 272px;
+    height: 160px;
+}
+.hero__cart__img>img{
+    border-radius: 15px;
+
+}
+/* <!-- ######## HERO__CART__ICON--IMG ############################################## --> */
+
+.hero__heart__img{
+    position: absolute;
+    top: 10px;;
+    left: 240px;
+}
+
+
+.hero__stok__img{
+    position: absolute;
+  top: 35%;
+ left: 10px;
+}
+/* <!-- ######## HERO__CART__PRICE ############################################## --> */
+
+.hero__price{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero__price--1{
+    font-weight: 900;
+    font-size: 6mm;
+    padding: 0 10px;
+    
+}
+
+.hero__price--2{
+    padding: 10px;
+}
+/* <!-- ######## HERO__CART__CHOICE ############################################## --> */
+
+.hero__choice{
+    display: flex;
+    justify-content: space-between;
+    color: #BFBFBF;
+    font-size: 3mm;
+    align-items: center;
+}
+
+.hero__choice--1{
+    padding: 0 10px;
+}
+
+.hero__choice--2{
+    padding-right: 10px;
+
+}
+/* <!-- ######## HERO__CART__LIST ############################################## --> */
+
+.hero__list{
+    color: #414141;
+    padding-left: 10px;
+    padding-top: 8px;
+}
+
+.hero__rating{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+/* <!-- ######## HERO__CART__BASKIT ############################################## --> */
+
+.hero__baskit__button{
+width: 256px;
+height: 40px;
+border-radius: 4px;
+color: #70C05B;
+border-color: #70C05B;
+}
+
+.hero__baskit__box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.new{
+    background: #1FA8F7;
+    width: 100%;
+    height: 100%;
+}
+
+
+.new__text--tem{
+    display: flex;
+    height: 200px;
+    align-items: center;
+    font-family:"Roboto";
+    padding-top: 100px;
+    padding-left: 30px;
+    
+}
+
+.new__cart{
+    display: flex;
+    justify-content: space-between;
+    width: 1208px;
+    margin: 0 auto;
+}
+
+.offer__container{
+    height: 500px;
+    align-items: center;
+}
+
+
+.offer__box{
+    background: #FCD5BA;
+    width: 584px;
+    height: 200px;
+    border-radius: 4px;
+    display: flex;
+    list-style: none;
+    font-family: "Roboto";
+    box-shadow: 0px 5.5px 5px #FCD5BA(0, 0, 0, 0.5);
+    
+    
+}
+
+.offer__cart{
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.offer__cart--tem{
+    font-size: 5mm ;
+    font-weight: 900;
+}
+
+.offer__cart--text{
+    font-weight: 100;
+    font-size: 4mm;
+    padding-top: 15px;
+}

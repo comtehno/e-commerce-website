@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Rubik:wght@400;600&display=swap');
+
+@import url(./assets/styles/reset.css);
+
+@import url(./assets/styles/index.css);
+
+@import url(./assets/styles/about-us.css);
+
+@import url(./assets/styles/cart.css);
+
+@import url(./assets/styles/category.css);
+
+@import url(./assets/styles/contacts.css);
+
+@import url(./assets/styles/favorites.css);
+
+@import url(./assets/styles/jobs.css);
+
+@import url(./assets/styles/order.css);
+
+@import url(./assets/styles/product.css);
+
+body, li, ul {
+    margin: 0;
+    
+}
+
